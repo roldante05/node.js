@@ -1,0 +1,36 @@
+* {
+   
+    background-color: #202020;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Calculadora';
+    src: url('Calculator.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+  }
+
+h2{
+    font-family: 'Calculadora';
+    font-size: 10vw;
+    color: rgb(243, 118, 69);
+}
+
+.contenedor {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    color: wheat;
+}
+
