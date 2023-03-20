@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+    <main class="vh-100 container text-center align-items-center pt-3 d-flex justify-content-center" >
+        <section>
+            <h1 class="display-1" >Sobre mi</h1>
+            <p class="parrafo" >Mi nombre es Dante Roldan, soy estudiante universitario, apasionado por la tecnología y videojuegos.Busco nuevas experiencias que me permitan crecer profesionalmente en el área it. Me gusta trabajar en equipo, soy creativo y con capacidad para adaptarme a los cambios. Cuento con conocimientos en el área de programación web full stack y experiencia en diferentes proyectos</p>
+            <h2>Skills</h2>
+            <div class="skill d-flex justify-content-center" >
+                <div class="frontend mx-auto">
+                    <img src="/img/front.svg" alt="" width="" class="">
+                    <div class="btn-tech my-2 " >
+                        <a href="" class="btn-html" >HTML</a>
+                        <a href="" class="btn-css" >CSS</a>
+                        <a href="" class="btn-js" >JavaScript </a>
+                    </div>
+                    <h2>Frontend</h2>
+                </div>
+                <div class="librerias mx-auto">
+                    <img src="/img/framework.svg" alt="" width="" class="">
+                    <div class="btn-tech my-2 "  >
+                        <a href="" class="btn-laravel" >Laravel </a>
+                        <a href="" class="btn-bs" >Bootstrap</a>
+                    </div>
+                    <h2>Frameworks/Librerias</h2>
+                </div>
+                <div class="backend mx-auto">
+                    <img src="/img/back.svg" alt="" width="" class="">
+                    <div class="btn-tech my-2 ">
+                        <a href="" class="btn-php" >PHP</a>
+                        <a href="" class="btn-node" >Node.js</a>
+                        <a href="" class="btn-mysql" >MySQL</a>
+                    </div>
+                    <h2>Backend</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+</body>
+</html>

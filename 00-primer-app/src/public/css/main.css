@@ -1,0 +1,88 @@
+
+body{
+    
+    background-color: #202020;
+    color: white;
+}
+h1{
+font-size: 45px !important;
+/* font-size: 2.5em; */
+}
+
+.escribir{
+    position: relative;
+    font-size: 40px !important; 
+    color: #fff;
+
+}
+
+.escribir .puntero {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #202020;
+    padding-left: 5px !important;
+    border-left: 1px solid #000;
+    animation: escribir 3s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+/* SOBRE MI */
+
+.btn-tech a {
+    margin: 0px 5px;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: none;
+}
+
+.frontend img, .backend img, .librerias img{
+    width: 200px;
+    height: 160px;
+    margin: 10px 0px;
+}
+
+.frontend, .backend, .librerias{
+    height: 300px;
+}
+
+.frontend h2, .backend h2, .librerias h2{
+    margin: 10px 0px;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.btn-html{
+    background-color: orangered;
+
+}
+.btn-css{
+    background-color: rgb(68, 68, 243);
+}
+.btn-js{
+    background-color: rgb(240, 209, 70);
+}
+.btn-laravel{
+    background-color: rgb(233, 112, 69);
+}
+.btn-bs{
+    background-color: rgb(190, 41, 228);
+}
+.btn-php{
+    background-color: rgb(92, 126, 219);
+}
+.btn-node{
+    background-color: rgb(108, 226, 85);
+}
+.btn-mysql{
+    background-color: rgb(0, 60, 255);
+}
