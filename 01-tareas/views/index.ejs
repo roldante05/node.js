@@ -1,0 +1,26 @@
+<%- include('partials/head.ejs') %>
+
+    <% if(entries.length) { %>
+        <% entries.forEach( (entry)=> { %>
+            <div class="card border-danger my-3">
+                <div class="card-header text-bg-danger d-flex justify-content-between ">
+                    <div>
+                        <%=entry.title %>
+                    </div>
+                    <div>
+
+                        <%=entry.published %>
+                    </div>
+                </div>
+                <div class="card-body bg-dark">
+                    <%=entry.body %>
+                </div>
+            </div>
+            <%} ) %>
+
+
+                <% } else {%>
+                    <p>No existen entradas</p>
+                    <% } %>
+
+                        <%- include('partials/footer.ejs') %>
